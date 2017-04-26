@@ -21,10 +21,6 @@ foreach ($Extension in $ExecutableList) {
     $ColorTable.Add($Extension, "Red")
 }
 
-foreach ($Extension in $TextList) {
-    $ColorTable.Add($Extension, "Cyan")
-}
-
 foreach ($Extension in $DllPdbList) {
     $ColorTable.Add($Extension, "DarkGreen")
 }
