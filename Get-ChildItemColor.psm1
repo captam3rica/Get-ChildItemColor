@@ -10,8 +10,8 @@ $ConfigsList = @(".cfg", ".conf", ".config", ".ini", ".json")
 
 $ColorTable = @{}
 
-$ColorTable.Add('Default', $OriginalForegroundColor) 
-$ColorTable.Add('Directory', "Blue") 
+$ColorTable.Add('Default', $OriginalForegroundColor)
+$ColorTable.Add('Directory', "Blue")
 
 foreach ($Extension in $CompressedList) {
     $ColorTable.Add($Extension, "Yellow")
