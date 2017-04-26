@@ -22,7 +22,7 @@ foreach ($Extension in $ExecutableList) {
 }
 
 foreach ($Extension in $TextList) {
-    $ColorTable.Add($Extension, "White")
+    $ColorTable.Add($Extension, "Cyan")
 }
 
 foreach ($Extension in $DllPdbList) {
