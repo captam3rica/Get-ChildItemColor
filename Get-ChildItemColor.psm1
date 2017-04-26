@@ -10,18 +10,18 @@ $ConfigsList = @(".cfg", ".conf", ".config", ".ini", ".json")
 $ColorTable = @{}
 
 $ColorTable.Add('Default', $OriginalForegroundColor) 
-$ColorTable.Add('Directory', "Green") 
+$ColorTable.Add('Directory', "Blue") 
 
 foreach ($Extension in $CompressedList) {
     $ColorTable.Add($Extension, "Yellow")
 }
 
 foreach ($Extension in $ExecutableList) {
-    $ColorTable.Add($Extension, "Blue")
+    $ColorTable.Add($Extension, "Red")
 }
 
 foreach ($Extension in $TextList) {
-    $ColorTable.Add($Extension, "Cyan")
+    $ColorTable.Add($Extension, "White")
 }
 
 foreach ($Extension in $DllPdbList) {
