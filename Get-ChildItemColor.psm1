@@ -4,7 +4,8 @@ $CompressedList = @(".7z", ".gz", ".rar", ".tar", ".zip")
 $ExecutableList = @(".exe", ".bat", ".cmd", ".py", ".pl", ".ps1",
                     ".psm1", ".vbs", ".rb", ".reg", ".fsx", ".sh")
 $DllPdbList = @(".dll", ".pdb")
-$TextList = @(".csv", ".log", "markdown", ".rst", ".txt")
+$TextList = @(".csv", ".log", "markdown", ".rst", ".txt", ".md", ".doc",
+               ".docx", ".xls", ".xlsx", ".pdf", ".xml")
 $ConfigsList = @(".cfg", ".conf", ".config", ".ini", ".json")
 
 $ColorTable = @{}
